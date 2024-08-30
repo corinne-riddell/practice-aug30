@@ -8,8 +8,10 @@ output: html_document
 ```{r}
 library(tidyverse)
 
+## Including Plots
 ggplot(dat, aes(x = X, y = Y)) + 
-  geom_point
+  geom_point() + 
+  geom_title("Plot Title")
 
 
 ```
