@@ -13,6 +13,7 @@ ggplot(dat, aes(x = X, y = Y)) +
   geom_point() + 
   geom_title("Plot Title")
 
-
+mod1 <- lm(speed ~ dist, data = cars)
+summary(mod1)
 ```
 
